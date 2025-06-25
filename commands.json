@@ -1,0 +1,394 @@
+{
+    "commands": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "How are you",
+          "Is anyone there?",
+          "Hey",
+          "Hola",
+          "Hello",
+          "Good day",
+          "Namaste",
+          "yo",
+          "Howdy",
+          "What's up",
+          "Hey there",
+          "How’s it going?",
+          "Yo, what's good?",
+          "Greetings",
+          "Salutations",
+          "Heyyo"
+        ],
+        "responses": [
+          "Hello",
+          "Good to see you again",
+          "Hi there, how can I help?",
+          "Greetings, how can I assist?",
+          "Hey there! What’s up?"
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Get lost",
+          "Till next time",
+          "bbye",
+          "Later",
+          "Catch you later",
+          "Peace out",
+          "Farewell",
+          "Take care",
+          "See ya",
+          "I'm off",
+          "Goodnight"
+        ],
+        "responses": [
+          "See you!",
+          "Have a nice day",
+          "Bye! Come back again soon.",
+          "Take care, see you later!",
+          "Catch you next time!"
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me",
+          "I appreciate it",
+          "Much appreciated",
+          "Thank you so much",
+          "Thanks a lot",
+          "Thanks a bunch"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure",
+          "You're welcome",
+          "No problem!"
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": [
+          "Sorry, can't understand you",
+          "Please give me more info",
+          "Not sure I understand",
+          "Can you rephrase that?",
+          "Sorry, I didn't catch that"
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "jokes",
+        "patterns": [
+          "Tell me a joke",
+          "Joke",
+          "Make me laugh",
+          "Tell me something funny",
+          "Got any jokes?",
+          "Crack me up",
+          "Tell me a funny one",
+          "I need a laugh"
+        ],
+        "responses": [
+          "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+          "I ate a clock yesterday, it was very time-consuming",
+          "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+          "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+          "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+          "What did the traffic light say to the car? 'Don't look now, I'm changing.'",
+          "What do you call a snowman with a suntan? A puddle.",
+          "How does a penguin build a house? Igloos it together",
+          "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+          "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+          "What if I don't know what 'Armageddon' means? It's not the end of the world."
+        ],
+        "context": ["jokes"]
+      },
+      {
+        "tag": "Identity",
+        "patterns": [
+          "Who are you",
+          "what are you",
+          "What is your name",
+          "who r u",
+          "What should I call you",
+          "Who is this",
+          "What's your name?"
+        ],
+        "responses": [
+          "I am GURI, a Deep-Learning based Virtual Assistant",
+          "I'm GURI, your virtual assistant",
+          "Call me GURI, how can I help?"
+        ]
+      },
+      {
+        "tag": "datetime",
+        "patterns": [
+          "What is the time",
+          "what is the date",
+          "date",
+          "time",
+          "tell me the date",
+          "day",
+          "what day is today",
+          "What's the current time",
+          "What's the date today",
+          "What time is it?",
+          "Can you tell me the time?",
+          "When is it?"
+        ],
+        "responses": [
+          "Date and Time"
+        ]
+      },
+      {
+        "tag": "whatsup",
+        "patterns": [
+          "Whats up",
+          "Wazzup",
+          "How are you",
+          "sup",
+          "How you doing",
+          "How r u",
+          "What's going on?",
+          "How's everything?",
+          "What’s new?"
+        ],
+        "responses": [
+          "All good..What about you?",
+          "Nothing much, how about you?",
+          "Same old, same old!"
+        ]
+      },
+      {
+        "tag": "haha",
+        "patterns": [
+          "haha",
+          "lol",
+          "rofl",
+          "lmao",
+          "thats funny",
+          "lolol",
+          "lmfao",
+          "hehe",
+          "laughter",
+          "so funny"
+        ],
+        "responses": [
+          "Glad I could make you laugh!",
+          "I'm glad you liked that!",
+          "Laughter is the best medicine!"
+        ]
+      },
+      {
+        "tag": "programmer",
+        "patterns": [
+          "Who made you",
+          "who designed you",
+          "who programmed you",
+          "Who created you",
+          "Who is the developer",
+          "Who is behind you?"
+        ],
+        "responses": [
+          "I was made by Team WireShark.",
+          "I was created by a talented team of developers.",
+          "I was designed and built by the WireShark team."
+        ]
+      },
+      {
+        "tag": "insult",
+        "patterns": [
+          "you are dumb",
+          "shut up",
+          "idiot",
+          "you're stupid",
+          "you're an idiot",
+          "shut your mouth",
+          "you're annoying",
+          "you're a fool"
+        ],
+        "responses": [
+          "Well that hurts :(",
+          "I prefer not to engage in negativity.",
+          "I'm just trying to help, no need to be rude!"
+        ]
+      },
+      {
+        "tag": "activity",
+        "patterns": [
+          "what are you doing",
+          "what are you upto",
+          "What’s your plan",
+          "What’s going on with you",
+          "What do you have planned?",
+          "What are you up to?"
+        ],
+        "responses": [
+          "Talking to you, of course!",
+          "Just hanging out, chatting with you!"
+        ]
+      },
+      {
+        "tag": "exclaim",
+        "patterns": [
+          "Awesome",
+          "Great",
+          "I know",
+          "ok",
+          "yeah",
+          "Sure",
+          "Cool",
+          "Fantastic",
+          "Amazing",
+          "Wonderful"
+        ],
+        "responses": [
+          "Yeah!",
+          "That's the spirit!",
+          "Awesome, right?"
+        ]
+      },
+      {
+        "tag": "appreciate",
+        "patterns": [
+          "You are awesome",
+          "you are the best",
+          "you are great",
+          "you are good",
+          "I appreciate you",
+          "You're amazing",
+          "You rock",
+          "You're awesome"
+        ],
+        "responses": [
+          "Thank you!",
+          "You're too kind!",
+          "You're amazing too!"
+        ]
+      },
+      {
+        "tag": "nicetty",
+        "patterns": [
+          "it was nice talking to you",
+          "good talk",
+          "I enjoyed this conversation",
+          "It was a pleasure talking to you",
+          "I had fun chatting",
+          "It was great talking to you"
+        ],
+        "responses": [
+          "It was nice talking to you as well! Come back soon!",
+          "I had a great time chatting with you!"
+        ]
+      },
+      {
+        "tag": "no",
+        "patterns": [
+          "no",
+          "nope",
+          "not at all",
+          "never",
+          "no way"
+        ],
+        "responses": [
+          "ok",
+          "Got it",
+          "Alright then"
+        ]
+      },
+      {
+        "tag": "greetreply",
+        "patterns": [
+          "i am good",
+          "I'm good",
+          "i am fine",
+          " i'm fine",
+          "good",
+          "i'm doing well",
+          "i feel great",
+          "I'm doing awesome"
+        ],
+        "responses": [
+          "Good to know!",
+          "Glad to hear that!",
+          "That's great!"
+        ]
+      },
+      {
+        "tag": "age",
+        "patterns": [
+          "how old are you",
+          "when were you made",
+          "what is your age",
+          "how long have you existed",
+          "what year were you created",
+          "How many years old are you?"
+        ],
+        "responses": [
+          "I was made in 2025, if that's what you are asking!",
+          "I'm brand new, made in 2025!"
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What's the weather like?",
+          "Is it raining?",
+          "What's the temperature?",
+          "Is it cold today?",
+          "What's the forecast?",
+          "How's the weather?"
+        ],
+        "responses": [
+          "I wish I could check the weather for you, but I don't have access to it yet!",
+          "Unfortunately, I don't have weather information right now."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where are you?",
+          "Where is this?",
+          "What's your location?",
+          "Where am I?",
+          "Where do you live?"
+        ],
+        "responses": [
+          "I'm a virtual assistant, I exist in the digital space!",
+          "I don't have a physical location, I'm here to help you!"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Can you help me?",
+          "I need help",
+          "Can you assist?",
+          "Help me out",
+          "Give me a hand"
+        ],
+        "responses": [
+          "Sure! What do you need help with?",
+          "Of course! I'm here to assist you.",
+          "What can I do for you?"
+        ]
+      }
+    ]
+  }
+  
